@@ -69,7 +69,6 @@ var getSkyLine = function(buildings) {
 	for(var i=0;i<newbuildings.length;i++) {
 	//if it is start of building then add the height to map. If height already exists then increment
         //the value
-        //console.log(newbuildings[i].height)
 		var height_q = queue.get(newbuildings[i].height)
 		if(newbuildings[i].isStart === true) {	
 			if(height_q == undefined) {
