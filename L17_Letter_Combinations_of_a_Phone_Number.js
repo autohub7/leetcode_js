@@ -26,7 +26,6 @@ var letterCombinations = function(digits) {
 
             var letters = numToLetters[digits[idx]];
             for(var i=0;i<letters.length;i++) {
-                console.log('i:  '+i+'. idx: '+idx)
                 this.dfs(digits, idx+1, curr+letters[i]); 
             }
         }
