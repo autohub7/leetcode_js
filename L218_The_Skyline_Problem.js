@@ -9,7 +9,7 @@ https://github.com/mission-peace/interview/blob/master/src/com/interview/geometr
   npm install treemap-js
   https://www.npmjs.com/package/treemap-js
 */
-// !!! Please replace treeMap in your local 
+// !!! Please replace treeMap path in your local directory 
 var treeMap = require('../DS/treeMap.js')
 class BuildingPoint {
 	constructor(x, height, isStart) {
@@ -67,7 +67,7 @@ var getSkyLine = function(buildings) {
 	queue.set(0, 1); 
 	var prevMaxHeight = 0; 
 	for(var i=0;i<newbuildings.length;i++) {
-		//if it is start of building then add the height to map. If height already exists then increment
+	//if it is start of building then add the height to map. If height already exists then increment
         //the value
         //console.log(newbuildings[i].height)
 		var height_q = queue.get(newbuildings[i].height)
