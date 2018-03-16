@@ -3,7 +3,7 @@ function TreeNode(val) {
     this.left = this.right = null;
 }
 
-
+// BFS
 var mergeTrees = function(t1, t2) {
 	if(t1 == null) return t2; 
 	if(t2 == null) return t1; 
@@ -14,7 +14,7 @@ var mergeTrees = function(t1, t2) {
   	return t1; 
 };
 
-/*
+/* DFS
 var mergeTrees = function(t1, t2) {
 	if(t1 == null) return t2; 
 	var stack = []; 
