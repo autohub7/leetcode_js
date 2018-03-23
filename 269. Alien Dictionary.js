@@ -31,6 +31,7 @@ var alienOrder = function(words) {
 			}
 		}
 	}
+	console.log('hey')
 	console.log(map)
 	var q = []; 
 	for (var [key, value] of degree.entries()) {	
