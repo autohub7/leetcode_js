@@ -116,8 +116,8 @@ class tpSort {
 }
 
 var g = new Graph(); 
-var myVertices = [0, 1, 2, 3, 4, 5, 6, 7]; //{7} 
-for (var i=0; i<myVertices.length; i++){ //{8} 
+var myVertices = [0, 1, 2, 3, 4, 5, 6, 7]; 
+for (var i=0; i<myVertices.length; i++){ 
 	g.addVertex(myVertices[i]); 
 } 
 
