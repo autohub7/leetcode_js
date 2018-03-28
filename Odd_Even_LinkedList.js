@@ -1,5 +1,5 @@
 /*
-    Re-order a given linked-list to odd-even
+    Re-order a given unordered linked-list to odd-even linked-list
     ex) 
     Input:  1->2->3->4->5
     Output: 1->3->5->2->4
