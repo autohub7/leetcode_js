@@ -1,6 +1,6 @@
 /*
 	https://www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/
-	*/
+*/
 
 class chainMulti {
 	constructor(A) {
@@ -44,7 +44,8 @@ class chainMulti {
 	}
 }
 
-
+/*
 var chain = new chainMulti([40, 20, 30, 10, 30]);
 console.log(chain.findMinBF());  
 console.log(chain.findMin());  
+*/
