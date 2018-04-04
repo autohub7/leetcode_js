@@ -3,8 +3,6 @@ var longestPalindrome = function(s) {
 
     // Expand around the center 
     var palin1, palin2, size; 
-    var l = parseInt(s.length- (s.length/2)); 
-    var r = l+1; 
 	for (var i = 0; i < s.length; i++) {
 		palin1= searchPalin(s, i, i); 
 		palin2= searchPalin(s, i, i+1); 
@@ -21,7 +19,7 @@ var longestPalindrome = function(s) {
 };
 
 function searchPalin(s, l, r) {
-	while(s[l] == s[r] && l>0 && r < s.length) {
+	while(s[l] == s[r] && l>=0 && r < s.length) {
 		l--; 
 		r++; 
 	}
